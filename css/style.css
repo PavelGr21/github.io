@@ -19,7 +19,8 @@ body a{
 }
 h1,h2,h3,h4,h5,h6{
 	margin:0;
-	font-family: 'Mirza', cursive;
+	/*font-family: 'Mirza', cursive;*/
+	font-family: 'Mirza';
 }
 p{
 	margin:0;
@@ -159,11 +160,15 @@ h1.agile-logo {
     padding: 8em 0;
 }
 .banner-text h2{
-    color: #fff;
+	color: #f9f0d1;
     font-size: 5em;
-    text-transform: uppercase;
     font-weight: 800;
     margin: 0.4em 0 0.6em;
+    /* color: #fff; */
+    /* font-size: 5em; */
+    /* text-transform: uppercase; */
+    /* font-weight: 800; */
+    /* margin: 0.4em 0 0.6em; */
 }
 .banner-text h4 {
     font-size: 1.8em;
