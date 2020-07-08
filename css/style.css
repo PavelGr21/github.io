@@ -35,7 +35,7 @@ body a:hover{
 /*-- banner --*/
 .banner {
     min-height: 780px;
-    background: url(../images/bg.jpg)no-repeat center 0px;
+    background: url(../images/bg3.jpg)no-repeat center 0px;
     background-size: cover;
     position: relative;
 } 
@@ -172,7 +172,8 @@ h1.agile-logo {
 }
 .banner-text h4 {
     font-size: 1.8em;
-    color: #b5b5b5;
+    /* color: #b5b5b5; */
+    color: #000000;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -214,6 +215,7 @@ h3.agileits-title:after {
     font-weight: 300;
     line-height: 1.4em;
 	margin-bottom: 0.8em;
+	text-align: center;
 }
 p {
     font-size: 1em;
@@ -470,17 +472,17 @@ h3.title {
 .services-row {
 	overflow: hidden;
 }
-.services-left {
-    padding: 0;
-    background: url(../images/img2.jpg)no-repeat center 0px;
-    background-size: cover;
-    min-height: 343px; 
-	-webkit-transition: .5s all;
-	-moz-transition: .5s all;
-	-o-transition: .5s all;
-	-ms-transition: .5s all;
-    transition: .5s all;
-}
+/* .services-left { */
+    /* padding: 0; */
+    /* background: url(../images/img2.jpg)no-repeat center 0px; */
+    /* background-size: cover; */
+    /* min-height: 343px;  */
+	/* -webkit-transition: .5s all; */
+	/* -moz-transition: .5s all; */
+	/* -o-transition: .5s all; */
+	/* -ms-transition: .5s all; */
+    /* transition: .5s all; */
+/* } */
 .services-right{
 	padding:7em 10em;
 	background:#00405c;
@@ -504,25 +506,73 @@ h4.w3agile-sbtitle:after {
     left: 0;
     content: '';
 }
-.services p {
+.services p, ul li {
     color: #d4d4d4;
     font-weight: 300;
 }
 img.img-responsive {
     width: 100%;
 }
-.services-left.services-left2 {
-    float: right;
-    background: url(../images/img3.jpg) no-repeat center 0px;
+.services-left {
+    padding: 0;
+    background: url(../images/mezhevanie.jpg)no-repeat center 0px;
     background-size: cover;
-	min-height: 344px;
+    min-height: 343px; 
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all;
+	-o-transition: .5s all;
+	-ms-transition: .5s all;
+    transition: .5s all;
 }
 .services-right.services-right2 {
     background: #2b82ad;
 }
-.services-left.services-left3 { 
-    background: url(../images/img4.jpg) no-repeat center 0px;
+.services-left.services-left2 {
+    float: right;
+    background: url(../images/tekh_plan2.jpg) no-repeat center 0px;
     background-size: cover;
+	min-height: 344px;
+}
+.services-left.services-left3 { 
+    background: url(../images/tekh_pasport1.jpg) no-repeat center 0px;
+    background-size: cover;
+}
+
+.services-left.services-left4 {
+    float: right;
+    background: url(../images/akt_obsledovaniya1.jpg) no-repeat center 0px;
+    background-size: cover;
+	min-height: 344px; 
+}
+.services-left.services-left5 { 
+    background: url(../images/PPT_PMT1.jpg) no-repeat center 0px;
+    background-size: cover;
+}
+.services-left.services-left6 {
+    float: right;
+    background: url(../images/Ohrannaya_zona.jpg) no-repeat center 0px;
+    background-size: cover;
+	min-height: 344px;
+}
+.services-left.services-left7 { 
+    background: url(../images/razbivka_uchastka1.jpg) no-repeat center 0px;
+    background-size: cover;
+}
+.services-left.services-left8 {
+    float: right;
+    background: url(../images/Fasadnaya_semka1.jpg) no-repeat center 0px;
+    background-size: cover;
+	min-height: 344px;
+}
+.services-left.services-left9 { 
+    background: url(../images/Vynos_granic.jpg) no-repeat center 0px;
+    background-size: cover;
+}
+.services-left.services-left10 {
+    float: right;
+    background: url(../images/yur_pomoshch.jpg) no-repeat center 0px;
+    background-size: cover;
+	min-height: 344px;
 }
 .services-row:hover .services-left {
 	-webkit-transform: scale(1.2);
@@ -640,7 +690,7 @@ img.img-responsive {
     opacity: 1;
 	background:transparent;
 }
-#jzBoxBottom { max-height: 22%; }
+#jzBoxBottom { max-height: 52%; }
 
 #jzBoxNextBig, #jzBoxPrevBig {
 	cursor: pointer;
@@ -705,6 +755,14 @@ img.img-responsive {
 .features {
     margin-top: 5em;
 }
+.features li, p {
+	   color: #333;
+    font-weight: 300;
+}
+.features span {
+	   color: #ec4a4a;
+    font-weight: 300;
+}
 .features h4 {
     font-size: 1.6em;
     color: #ff8c00;
@@ -712,6 +770,9 @@ img.img-responsive {
 }
 .features-grid.features-w3ls-btm {
     margin-top: 4em;
+}
+.features-w3ls-btm.features-w3ls-btm2 {
+    margin-top: 3em;
 }
 /*-- Effect1 --*/
 .features-grid-left {
@@ -791,6 +852,83 @@ img.img-responsive {
 }
 /*-- //Effect1 --*/
 /*-- //features --*/
+/*-- mail --*/
+.mail-grid1{
+	text-align: center;
+    padding: 3.5em 2em;
+    border: 1px solid #DFDFDF;
+    background: #f5f5f5;
+}
+.mail-grid1 i{
+	font-size:1.5em;
+	color:#F8BE1E;
+}
+.mail-grid1 h4{
+	font-size:1.5em;
+	color:#797979;
+	margin:1em 0;
+}
+.mail-grid1 p{
+	font-size:14px;
+	color:#999;
+	line-height:1.5em;
+	margin:0;
+}
+.mail-grid1 p a{
+	color:#999;
+	text-decoration:none;
+}
+.mail-grid1 p a:hover{
+	color:#F8BE1E;
+}
+.mail-grid1 p span{
+	display:block;
+}
+.mail-grids{
+	margin:3em 0;
+}
+.mail-grids1-sub1-grid h4{
+	font-size:1em;
+	color:#797979;
+	margin:0 0 .5em;
+}
+.mail-grids1-sub1-grid input[type="text"],.mail-grids1-sub1-grid input[type="email"],.mail-grids1-sub1-grid textarea{
+	outline:none;
+	padding:10px;
+	border:1px solid #DFDFDF;
+	background:#f5f5f5;
+	font-size:14px;
+	color:#999;
+	width:100%;
+}
+.mail-grids1-sub1-grid textarea{
+	min-height:300px;
+}
+.mail-grids1-sub1-grid-textarea{
+	margin:0 1em;
+}
+.mail-grids1-sub1-grid input[type="submit"]{
+	outline: none;
+    padding: 10px 0;
+    border: none;
+    background: #39BC54;
+    font-size: 1em;
+    color: #fff;
+    width: 35%;
+    margin: 1em 0 0 22em;
+}
+.mail-grids1-sub1-grid input[type="submit"]:hover{
+	background:#F8BE1E;
+}
+.mail-grids1-sub1-grid:nth-child(2) {
+    margin: 2em 0;
+}
+.mail iframe{
+	width:100%;
+	min-height:500px;
+	margin-bottom:5em;
+}
+/*-- //mail --*/
 /*-- testimonial --*/
 .testi-left {
     float: left;
@@ -1225,7 +1363,8 @@ h3.agileits-title:after {
     left: 47%; 
 }
 .services-right {
-    padding: 6em 10em; 
+    padding: 3em 5em; 
+    /* padding: 6em 10em;  */
 }
 .services-left,.services-left.services-left2  {
     min-height: 340px;
@@ -1396,6 +1535,9 @@ h3.agileits-title {
 .features-grid.features-w3ls-btm {
     margin-top: inherit;
 }
+.features-w3ls-btm.features-w3ls-btm2 {
+    margin-top: inherit;
+}
 .testi-right h4 {
 	font-size: 1.6em;
 }
@@ -1545,7 +1687,7 @@ h1.agile-logo {
     width: 36%; 
 }
 .services-left,.services-right {
-    float: none;
+    /* float: none; */
     width: 100%;
 }
 .services-left, .services-left.services-left2{
