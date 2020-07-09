@@ -176,7 +176,7 @@ h1.agile-logo {
     color: #000000;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    /* font-weight: 300; */
 } 
 /*-- //banner --*/
 /*-- about --*/
@@ -212,7 +212,7 @@ h3.agileits-title:after {
 .about h4 {
     font-size: 1.6em;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300;
+    /* font-weight: 300; */
     line-height: 1.4em;
 	margin-bottom: 0.8em;
 	text-align: center;
@@ -508,7 +508,7 @@ h4.w3agile-sbtitle:after {
 }
 .services p, ul li {
     color: #d4d4d4;
-    font-weight: 300;
+    /* font-weight: 300; */
 }
 img.img-responsive {
     width: 100%;
@@ -757,7 +757,7 @@ img.img-responsive {
 }
 .features li, p {
 	   color: #333;
-    font-weight: 300;
+    /* font-weight: 300; */
 }
 .features span {
 	   color: #ec4a4a;
