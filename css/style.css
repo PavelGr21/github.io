@@ -767,6 +767,10 @@ img.img-responsive {
     font-size: 1.6em;
     color: #ff8c00;
     margin-bottom: .5em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    line-height: 1.4em;
+	text-align: center;
 }
 .features-grid.features-w3ls-btm {
     margin-top: 4em;
@@ -787,7 +791,7 @@ img.img-responsive {
 	-moz-border-radius: 50%;
     text-decoration: none;
     z-index: 1;
-    padding: 1em;
+    padding: 0.6em;
 	position: relative;
 }
 .features-grid-left i:after {
